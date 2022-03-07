@@ -1,2 +1,1 @@
-# landmark-multiatlas
-Landmark-based segmentation via Multi-atlas segmentation
+# Landmark-based segmentation using multi-atlas
