@@ -1,11 +1,11 @@
 # Landmark-based segmentation using multi-atlas
-This repository contains the source code of the multi-atlas baseline method used in the paper "Hybrid graph convolutional neural networks for landmark-based anatomical segmentation" (Gaggion et al., MICCAI 2021). For more information about this work, visit Nicolás Gaggion's repository on [GitHub](https://github.com/ngaggion/HybridGNet).
+This repository contains the source code of the multi-atlas baseline method used in the paper "Hybrid graph convolutional neural networks for landmark-based anatomical segmentation" (Gaggion et al., MICCAI 2021). For more information about this work, visit Nicolás Gaggion's repository on GitHub: https://github.com/ngaggion/HybridGNet
 
-## Intructions
+## Instructions
 This projects uses Python 3.8.10.
 
 ### Data
-- Download and preprocess the JSRT dataset. You can found the instructions [here](https://github.com/ngaggion/HybridGNet).
+- Download and preprocess the JSRT dataset. You can found the instructions [here](https://github.com/ngaggion/HybridGNet/tree/main/Datasets).
 - Format landmarks files into txt files for SimpleElastix. Run `./00_preprocess_jsrt.sh` after installing the project environment (instructions below).
 
 ### Project environment:
