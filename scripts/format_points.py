@@ -23,7 +23,7 @@ if __name__ == '__main__':
 
         print(f'\t{i+1:>3}/{num_points} File {points_name}', end=' ', flush=True)
 
-        points = np.load(points_path).reshape(-1, 2)
+        points = np.load(points_path).reshape(-1, 2)[:120]
         points *= args.scale  # rescale points if required
 
         n_points = points.shape[0]
